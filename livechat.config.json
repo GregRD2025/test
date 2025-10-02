@@ -1,3 +1,24 @@
 {
-    "id": "p2vrQf3Hg"
+    "id": "p2vrQf3Hg",
+    "name": "Test",
+    "product": "helpdesk",
+    "blocks": {
+        "authorization": {
+            "clientId": "00c1c42581ff9c7074b43abc7d32fa89",
+            "type": "javascript_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "GregRD2025/test",
+            "branch": "main"
+        },
+        "widgets": {
+            "1yeClHbBAK": {
+                "url": "https://livechat-contact-form.netlify.app/",
+                "placement": "plugin",
+                "initialState": "{\"ticketDetailsSections\":[{\"title\":\"Details section undefined\",\"components\":[{\"id\":\"button[0]\",\"type\":\"button\",\"data\":{\"buttonType\":\"primary\",\"label\":\"test\"}}]}]}"
+            }
+        }
+    }
 }
